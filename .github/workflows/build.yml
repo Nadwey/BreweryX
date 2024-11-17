@@ -28,9 +28,3 @@ jobs:
           path: |
             build/libs/BreweryX-*.jar
             !build/libs/BreweryX-*-original.jar
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: BreweryX - Kotlin Reduced
-          path: |
-            build/libs/BreweryX-*-KtReduced.jar
