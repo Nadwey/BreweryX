@@ -26,11 +26,11 @@ jobs:
         with:
           name: BreweryX
           path: |
-            build/libs/Brewery-*.jar
-            !build/libs/Brewery-*-original.jar
+            build/libs/BreweryX-*.jar
+            !build/libs/BreweryX-*-original.jar
 
       - uses: actions/upload-artifact@v4
         with:
           name: BreweryX - Kotlin Reduced
           path: |
-            build/libs/Brewery-*-KtReduced.jar
+            build/libs/BreweryX-*-KtReduced.jar
